@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS 23</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <form>
+      <table>
+        <tr>
+          <td width="200" height="30">Genişlik</td>
+          <td width="300">
+            <input id="genislik" type="text" />
+          </td>  
+        </tr>
+        <tr>
+          <td height="30">Yükseklik</td>
+          <td>
+            <input id="yükseklik" type="text" />
+          </td>  
+        </tr>
+        <tr>
+          <td height="30">Kenarlık Kalınlığı</td>
+          <td>
+            <select id="kenkal">
+              <option>Bir Çizgi Kalınlığı Seçiniz</option>
+              <option value="1px">1px</option>
+              <option value="2px">2px</option>
+              <option value="3px">3px</option>
+              <option value="4px">4px</option>
+              <option value="5px">5px</option>
+            </select>
+          </td>  
+        </tr>
+        <tr>
+          <td height="30">Kenarlık Tipi</td>
+          <td>
+            <select id="kentip">
+              <option>Bir Kenarlık Türü Seçiniz</option>
+              <option value="solid">solid</option>
+              <option value="dashed">dashed</option>
+              <option value="dotted">dotted</option>
+              <option value="double">double</option>
+            </select>
+          </td>  
+        </tr>
+        <tr>
+          <td height="30">Kenarlık Rengi</td>
+          <td>
+            <select id="kenrenk">
+              <option>Bir Rengi Seçiniz</option>
+              <option value="#f00">Kırmızı</option>
+              <option value="#00f">Mavi</option>
+              <option value="#0f0">Yeşil</option>
+              <option value="#000">Siyah</option>
+            </select> 
+          </td>  
+        </tr>
+        <tr>
+          <td height="30">Arka Plan Rengi</td>
+          <td>
+            <select id="arkaplan">
+              <option>Bir Arka Plan Rengi Seçiniz</option>
+              <option value="#f00">Kırmızı</option>
+              <option value="#00f">Mavi</option>
+              <option value="#0f0">Yeşil</option>
+              <option value="#000">Siyah</option>
+            </select> 
+          </td>   
+        </tr>
+        <tr>
+          <td height="30">Ovallik</td>
+          <td>
+            <select id="ovallik">
+              <option>Bir Ovallik Miktarı Seçiniz</option>
+              <option value="3px">3px</option>
+              <option value="5px">5px</option>
+              <option value="10px">10px</option>
+              <option value="15px">15px</option>
+            </select>
+          </td>   
+        </tr>
+        <tr>
+          <td height="30"></td>
+          <td>
+            <input name="" type="button" value="Oluştur" onclick="divolustur()"/>
+          </td>  
+        </tr>
+      </table> 
+    </form><br/><br/><br/>
+    <div id="kutu">
+      
+    </div>
+  </body>
+</html>
